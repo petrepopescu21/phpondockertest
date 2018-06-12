@@ -96,6 +96,6 @@ ENV PATH ${PATH}:/home/site/wwwroot
 
 WORKDIR /var/www/html
 
-COPY index.php /home/site/wwwroot
+COPY index.php .
 
 ENTRYPOINT ["/bin/init_container.sh"]
